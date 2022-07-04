@@ -1,11 +1,20 @@
 {
-  "name": "tpl3backend",
+  "name": "projet1",
   "version": "1.0.0",
-  "description": "première projet",
+  "description": "first project",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
-  "author": "Side SARR",
-  "license": "ISC"
+  "author": "Sidé SARR",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "nodemon": "^2.0.18"
+  }
 }
